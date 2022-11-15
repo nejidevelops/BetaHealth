@@ -3,7 +3,14 @@ import React from 'react'
 function Home() {
   return (
     <div className='container'>
-        Home
+        <div className='row'>
+          <div className='col-md-6'>
+            
+          </div>
+          <div className='col-md-6'>
+            
+          </div>
+        </div>
     </div>
   )
 }
