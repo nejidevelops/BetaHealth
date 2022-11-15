@@ -1,15 +1,16 @@
 import { useState } from "react";
+import './NavBar.css'
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full bg-purple-500 shadow">
+        <nav className="w-full shadow navbar-nav">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold text-white">LOGO</h2>
+                            <h2 className="text-2xl font-bold text-white">BETA<span>HEALTH</span></h2>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -60,13 +61,13 @@ export default function NavBar() {
                                 <a href="javascript:void(0)">Home</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Blog</a>
+                                <a href="javascript:void(0)">Services</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">About US</a>
+                                <a href="javascript:void(0)">About Us</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact US</a>
+                                <a href="javascript:void(0)">Contact Us</a>
                             </li>
                         </ul>
 
@@ -75,13 +76,7 @@ export default function NavBar() {
                         href="javascript:void(0)"
                         className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
-                        Sign in
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                    >
-                        Sign up
+                        Create an Account / Login
                     </a>
                 </div>
                     </div>
@@ -91,13 +86,7 @@ export default function NavBar() {
                         href="javascript:void(0)"
                         className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
-                        Sign in
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                    >
-                        Sign up
+                        Create an Account / Login
                     </a>
                 </div>
             </div>
