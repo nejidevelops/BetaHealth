@@ -12,9 +12,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/aboutus" element={<AboutUs />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/contact' element={<ContactUs />} />
+        <Route path='/contactus' element={<ContactUs />} />
       </Routes>
     </div>
   );

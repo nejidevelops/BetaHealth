@@ -5,7 +5,7 @@ function Home() {
     <div className='container'>
         <div className='row'>
           <div className='col-md-6 d-flex align-items-center justify-content-center'>
-            <h2>We care about your helath</h2>
+            <h2>We care about your health</h2>
 
           </div>
           <div className='col-md-6 d-flex align-items-center justify-content-center'>
