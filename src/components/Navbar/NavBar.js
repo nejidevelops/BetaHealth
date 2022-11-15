@@ -10,9 +10,9 @@ export default function NavBar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)">
+                        <NavLink to='/'>
                             <h2 className="text-2xl font-bold text-white">BETA<span>HEALTH</span></h2>
-                        </a>
+                        </NavLink>
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -64,13 +64,19 @@ export default function NavBar() {
                                 </NavLink>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Services</a>
+                                <NavLink to='/services'>
+                                    Services
+                                </NavLink>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">About Us</a>
+                                <NavLink to='/about'>
+                                    About Us
+                                </NavLink>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact Us</a>
+                                <NavLink to='/contact'>
+                                    Contact Us
+                                </NavLink>
                             </li>
                         </ul>
 
